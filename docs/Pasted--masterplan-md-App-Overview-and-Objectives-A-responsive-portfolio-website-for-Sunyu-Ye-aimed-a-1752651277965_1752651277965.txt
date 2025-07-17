@@ -1,0 +1,81 @@
+# masterplan.md
+
+## App Overview and Objectives
+
+A responsive portfolio website for Sunyu Ye aimed at showcasing her background, skills, and accomplishments in order to support job applications. The site will include an AI chatbot to answer questions about her experience and a multilingual setup (English and Chinese).
+
+## Target Audience
+
+* Recruiters and hiring managers
+* Potential collaborators or academic contacts
+* General visitors interested in Sunyu's work
+
+## Core Features and Functionality
+
+* **About Me** section
+* **Resume or CV** (with download option)
+* **Work Experience**
+* **Projects**
+* **Education**
+* **Skills**
+* **Contact Section** with email, LinkedIn, and blog
+* **Blog or Writing Samples**
+* **AI Chatbot** to answer questions about Sunyu's background
+* **Multilingual Support** (English and Chinese)
+* **Email Obfuscation** to prevent spam
+
+## High-Level Technical Stack Recommendations
+
+* **Frontend**: Next.js or similar modern web framework
+* **CMS**: Sanity for flexible, structured content management
+* **Chatbot**: OpenAI API integration
+* **Hosting**: Vercel or Netlify for seamless deployment
+* **Analytics**: Google Analytics
+* **SEO**: Structured metadata, open graph tags, robots.txt, sitemap.xml
+
+## Conceptual Data Model
+
+* **User Profile**: name, contact info, languages, profile photo
+* **Resume/Experience**: job title, company, date range, description
+* **Projects**: title, description, technologies used, links
+* **Education**: school, degree, date range
+* **Skills**: list grouped by type (technical, language, etc.)
+* **Blog Posts**: title, content, date, tags
+* **Localized Content**: language variations for each content type
+
+## User Interface Design Principles
+
+* Clean and minimalist aesthetic
+* Responsive layout for desktop and mobile
+* Clear, readable typography
+* Simple navigation menu
+* Placeholder image for profile until final photo is added
+
+## Security Considerations
+
+* Email obfuscation to prevent scraping
+* Sanity access control for content editing
+* No sensitive data exposed publicly
+
+## Development Phases or Milestones
+
+1. **Structure Design**: page wireframes and navigation layout
+2. **Content Modeling**: setup Sanity schema and data types
+3. **Frontend Development**: build responsive layout with placeholder content
+4. **AI Chatbot Integration**: setup FAQ-based or context-aware OpenAI chatbot
+5. **Multilingual Implementation**: add English and Korean versions
+6. **Testing and QA**: check responsiveness, language toggling, chatbot accuracy
+7. **Launch and Analytics**: connect Google Analytics, deploy site
+
+## Potential Challenges and Solutions
+
+* **Multilingual content consistency**: enforce translation workflow in CMS
+* **Maintaining chatbot relevance**: regularly update underlying FAQ data
+* **SEO for multilingual pages**: use proper hreflang tags and structured metadata
+
+## Future Expansion Possibilities
+
+* Add a newsletter or mailing list
+* Enable blog commenting or reactions
+* Integrate GitHub portfolio projects directly
+* Add a portfolio video or interactive elements
